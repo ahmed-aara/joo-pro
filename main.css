@@ -30,4 +30,34 @@
 
 body {
     font-family: 'Tajawal-Regular';
+    direction: rtl;
+}
+
+.info-car .col h2 {
+    color: #FEB940;
+    font-size: 50px;
+    font-family: 'Tajawal-ExtraBold' !important;
+}
+
+.info-car .col h3,
+h4 {
+    color: #1D7DCE;
+
+}
+
+.info-car h4{
+    font-size: 40px;
+    font-family: 'Tajawal-ExtraBold' !important;
+}
+
+
+.info-car .col p {
+    color: #D0D0D0;
+}
+
+.caption {
+    border-radius: 10px;
+    box-shadow: 0px 0px 38px 1px rgba(208, 208, 208, 1);
+    background-color: #ffff;
+
 }
