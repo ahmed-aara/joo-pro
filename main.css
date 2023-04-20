@@ -30,7 +30,99 @@
 
 body {
     font-family: 'Tajawal-Regular';
-    direction: rtl;
+
+}
+
+.full_w {
+    width: 100% !important;
+}
+
+.full_h {
+    height: 100% !important;
+}
+
+.font_size {
+    font-size: var(--size) !important;
+}
+
+.whiteC_ {
+    color: white !important;
+}
+
+.whiteBG_ {
+    background-color: white !important;
+}
+
+.offWhiteC_ {
+    color: #adadad !important;
+}
+
+.blueC_ {
+    color: #007FE3;
+}
+
+.blueBG_ {
+    background-color: #007FE3;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #007FE3;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #007FE3;
+    color: white;
+}
+
+.btn_2 {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    background-color: #007FE3;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn_2:hover {
+    background-color: #fff;
+    color: #007FE3;
+}
+
+/**********************************************************/
+
+.sec_header .bg_ {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.sec_header .bg_ img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.sec_header .bg_ .black_screen {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.sec_header .bg_ .content_ {
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    bottom: 0;
+    padding: 5rem 0px;
 }
 
 .info-car .col h2 {
@@ -45,7 +137,7 @@ h4 {
 
 }
 
-.info-car h4{
+.info-car h4 {
     font-size: 40px;
     font-family: 'Tajawal-ExtraBold' !important;
 }
@@ -60,4 +152,18 @@ h4 {
     box-shadow: 0px 0px 38px 1px rgba(208, 208, 208, 1);
     background-color: #ffff;
 
+}
+
+footer {
+    background-color: #F0F0F0;
+}
+
+footer a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #007FE3;
+}
+
+footer a:hover {
+    color: #FFB83D;
 }
